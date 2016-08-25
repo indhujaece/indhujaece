@@ -1,7 +1,9 @@
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
 int a;
+clrscr();
 printf("\n Enter a number");
 scanf("%d",&a);
 if(a<=0)
@@ -16,4 +18,5 @@ else
 printf("\nThe given number is positive");
 }
 return 0;
+getch()
 }
